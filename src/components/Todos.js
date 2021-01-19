@@ -25,8 +25,6 @@ const Todos = ({
   onToggle,
   onRemove,
 }) => {
-  console.error('------ Todos.js!!')
-  console.error('input : ', input)
   const onSubmit = (e) => {
     e.preventDefault();
     onInsert(input);

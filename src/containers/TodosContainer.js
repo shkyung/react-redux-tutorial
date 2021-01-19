@@ -24,7 +24,7 @@ const TodoContainer = ({
 };
 
 export default connect(
-  ({todos}) => {
+  ({ todos }) => {
     return {
       input: todos.input,
       todos: todos.todos,
